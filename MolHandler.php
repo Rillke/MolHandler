@@ -34,7 +34,7 @@ $wgMolHandlerDir = __DIR__;
 # Require modules
 $wgAutoloadClasses += array(
 	// Hooks
-	// 'UploadWizardHooks' => $wgMolHandlerDir . '/MolHandler.hooks.php',
+	// 'MolHandlerHooks' => $wgMolHandlerDir . '/MolHandlerHooks.php',
 );
 
-// $wgHooks['UnitTestsList'][] = 'Class::staticProc';
+// $wgHooks['UnitTestsList'][] = 'MolHandlerHooks::onUnitTestsList';
