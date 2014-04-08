@@ -29,3 +29,12 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:MolHandler'
 );
 
+$wgMolHandlerDir = __DIR__;
+
+# Require modules
+$wgAutoloadClasses += array(
+	// Hooks
+	// 'UploadWizardHooks' => $wgMolHandlerDir . '/MolHandler.hooks.php',
+);
+
+// $wgHooks['UnitTestsList'][] = 'Class::staticProc';
